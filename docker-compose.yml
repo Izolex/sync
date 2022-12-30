@@ -1,0 +1,11 @@
+version: '3.8'
+
+services:
+  sync:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    volumes:
+      - ./include/:/usr/src/app/include
+      - ./lib/:/usr/src/app/lib
+      - ./tests/:/usr/src/app/tests
