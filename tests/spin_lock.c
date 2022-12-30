@@ -1,7 +1,7 @@
 #include "../include/spin_lock.h"
 #include "definitions.h"
 #include "spin_lock.h"
-#include "threads.h"
+#include "test.h"
 
 
 static void *threadFunc_TAS(void *data) {

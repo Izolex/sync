@@ -1,6 +1,7 @@
 project(libsync LANGUAGES C)
 
 set(HEADERS
+    ../include/mutex.h
     ../include/spin_lock.h
 )
 
