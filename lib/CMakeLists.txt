@@ -2,6 +2,8 @@ project(libsync LANGUAGES C)
 
 set(HEADERS
     ../include/mutex.h
+    ../include/semaphore.h
+    ../include/semaphore_spin.h
     ../include/spin_lock.h
 )
 
